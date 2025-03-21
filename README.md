@@ -14,7 +14,7 @@ Assurez-vous d'avoir ROS2 installé sur votre machine. Vous pouvez suivre les in
 
 ```bash
 DISTRO=<ton distro ros>  # Remplacez <ton distro ros> par votre distribution ROS2
-sudo apt install ros-${DISTRO}-ros2-control ros-jazzy-ros2-controllers
+sudo apt install ros-${DISTRO}-ros2-control ros-${DISTRO}-ros2-controllers
 sudo apt install ros-${DISTRO}-xacro  # Pour ROS2 Jazzy
 sudo apt install ros-${DISTRO}-twist-mux
 ```
